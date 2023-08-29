@@ -34,15 +34,8 @@
             android:id="@+id/false_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/false_button" />
+            android:text="@string/false_button"/>
     </LinearLayout>
-
-    <Button
-        android:id="@+id/cheat_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="@string/cheat_button" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -64,6 +57,17 @@
             android:text="@string/next_button"
             app:icon="@drawable/arrow_right"
             app:iconGravity="end" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cheat_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cheat_button" />
     </LinearLayout>
     <![CDATA[
 
